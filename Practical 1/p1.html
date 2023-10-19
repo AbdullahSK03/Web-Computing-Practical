@@ -8,12 +8,14 @@
 <body>
     <div class="main">
 
-        <h1>THIS IS MY FIRST HTML PAGE</h1>
-        <form>
-            <label><h1>Login</h1></label>
-            <input type="email" placeholder="Enter your Email">
-            <input type="password" placeholder="Enter your password">
-            <input type="button" name="submit" value="Login">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <label for="userID">UserID:</label>
+            <input type="text" id="userID" name="userID" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
         </form>
 
     </div>
